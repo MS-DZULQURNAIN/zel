@@ -32,16 +32,16 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    TOKEN = ""  # Take from @BotFather
+    TOKEN = "6049689032:AAH_Nmx-icacIb5FEAolpLdyiUnZjH11SU4"  # Take from @BotFather
     OWNER_ID = (
-        ""  # If you dont know, run the bot and do /id in your private chat with it
+        "1337085565"  # If you dont know, run the bot and do /id in your private chat with it
     )
-    OWNER_USERNAME = ""
+    OWNER_USERNAME = "MSDZULQRNN"
     API_HASH = None  # for purge stuffs
     API_ID = None
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "sqldbtype://username:pw@hostname:port/db_name"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://bqlkbhhl:YG-iSQ5u5g-6l2MJ-NRgEi-yPJnq3S-H@rajje.db.elephantsql.com/bqlkbhhl"  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     REDIS_URL = "redis://something@nothing/anything:10002"  # needed for afk module, get from redislab
     LOAD = []
