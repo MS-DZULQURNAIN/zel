@@ -19,3 +19,8 @@ class BUTTON:
                     InlineKeyboardButton(text="🔙 Kembali", callback_data="zel_back"),
                  ]
                 ])
+    BBMANAGE = InlineKeyboardMarkup(
+                 [
+                    InlineKeyboardButton(text="🔙 Kembali", callback_data="zel_back"),
+                 ]
+                ])
