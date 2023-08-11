@@ -76,3 +76,5 @@ class TEXT:
 👮🏻 `/clear [note name]` hapus note name
 👮🏻 `/removeallnotes` hapus semua notes
 """
+
+    MUSIC = "♬ ʙᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ ᴍᴜꜱɪᴄ.\nᴘɪʟɪʜ ᴍᴇɴᴜ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ʙᴀɴᴛᴜᴀɴ ᴍᴜꜱɪᴄ."
