@@ -106,3 +106,21 @@ Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di Group Anda.
  ➣ /unauth [Username] - Hapus pengguna dari AUTH LIST grup.
  ➣ /authusers - Periksa DAFTAR AUTH grup
     """
+    BOT = """
+**✮ PERINTAH BOT**
+
+ ➣ /mstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll."
+
+ ➣ /msudolist - Periksa Sudo Pengguna Music,"
+
+ ➣ /lyrics [Nama Musik] mencari Lirik untuk Musik tertentu di web."
+
+ ➣ /song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4."
+
+ ➣ /player -  Dapatkan Panel Bermain interaktif."
+
+ ➣ c singkatan dari pemutaran saluran."
+
+ ➣ /queue or /cqueue- Periksa Daftar Antrian Musik
+"""
+    
