@@ -66,8 +66,8 @@ from zeldris.modules.helper_funcs.misc import paginate_modules
 from zeldris.modules.purge import client
 from zeldris.modules.no_sql import users_db as db
 from zeldris import BOT_USERNAME, PICTURE
-from assets.text import TEXT
-from assets.button import BUTTON
+from assets.text import MANAGE, DASAR, LANJUT, AHLI, PRO, MUSIC, ADMIN, BOT, PLAY, EXTRA, JASA
+from assets.button import BMANAGE, BBMANAGE, BMUSIC, BBMUSIC, BJASA
 
 
 def get_readable_time(seconds: int) -> str:
