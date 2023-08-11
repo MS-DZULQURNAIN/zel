@@ -438,6 +438,36 @@ def zel_cb(update: Update, context: CallbackContext):
             reply_markup=BBMANAGE,
             parse_mode=ParseMode.MARKDOWN
         )
+    elif query.data == "zel_music":
+        query.message.edit_text(
+            text=MUSIC,
+            reply_markup=BMUSIC,
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "zel_admin":
+        query.message.edit_text(
+            text=
+            reply_markup=
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "":
+        query.message.edit_text(
+            text=
+            reply_markup=
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "":
+        query.message.edit_text(
+            text=
+            reply_markup=
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "":
+        query.message.edit_text(
+            text=
+            reply_markup=
+            parse_mode=ParseMode.MARKDOWN
+        )
 
 
 def get_help(update: Update, context: CallbackContext):
