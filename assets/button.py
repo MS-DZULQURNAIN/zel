@@ -24,3 +24,23 @@ class BUTTON:
                     InlineKeyboardButton(text="🔙 Kembali", callback_data="zel_back"),
                  ]
                 ])
+    BMUSIC = InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ", callback_data="zel_admin"),
+                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ", callback_data="zel_bot"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴘʟᴀʏ", callback_data="zel_play"),
+                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴇxsᴛʀᴀ", callback_data="zel_extra"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="«", callback_data="zel_back"),
+                 ]
+                ])
+    BBMUSIC = InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="🔙 Kembali", callback_data="zel_music"),
+                 ]
+                ])
