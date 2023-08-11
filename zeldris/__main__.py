@@ -65,6 +65,7 @@ from zeldris.modules.helper_funcs.chat_status import is_user_admin
 from zeldris.modules.helper_funcs.misc import paginate_modules
 from zeldris.modules.purge import client
 from zeldris.modules.no_sql import users_db as db
+from zeldris import BOT_USERNAME, PICTURE
 from assets.text import TEXT
 from assets.button import BUTTON
 
@@ -93,9 +94,6 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-
-# sourcery skip: raise-specific-error
-ZELDRIS_IMG = "https://telegra.ph/file/1fa00785f30375c0c1b50.jpg"
 
 PM_START_TEXT = """
 **ʜᴀʟᴏ {}
@@ -264,7 +262,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         message.reply_photo(
-            ZELDRIS_IMG,
+            PICTURE,
             caption="<b>Yes, I'm alive!\nHaven't sleep since</b>: <code>{}</code>".format(
                 uptime
             ),
