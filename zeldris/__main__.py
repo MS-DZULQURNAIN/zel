@@ -113,6 +113,23 @@ PM_START_TEXT = """
 
 buttons = [
     [
+        InlineKeyboardButton(text="ᴛᴀᴍʙᴀʜᴋᴀɴ ɢᴡ ᴋᴇ ɢʀᴏᴜᴘ ʟᴜ➕", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="zel_manage"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="zel_music"),
+    ],
+    [
+        InlineKeyboardButton(text="ᴊᴀsᴀ ʙᴏᴛ🤖", callback_data="zel_jasa"),
+    ],
+    [
+        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/DezetStore"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/DezetSupport"),
+    ],
+  ]
+
+buttons = [
+    [
         InlineKeyboardButton(
             text="❔ Help",
             callback_data="help_back",
@@ -388,6 +405,36 @@ def zel_cb(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
             timeout=60,
+        )
+    elif query.data == "zel_manage":
+        query.message.edit_text(
+            text=MANAGE,
+            reply_markup=BMANAGE,
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "zel_dasar":
+        query.message.edit_text(
+            text=DASAR,
+            reply_markup=BBMANAGE,
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "zel_lanjut":
+        query.message.edit_text(
+            text=LANJUT,
+            reply_markup=BBMANAGE,
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "zel_ahli":
+        query.message.edit_text(
+            text=AHLI,
+            reply_markup=BBMANAGE, 
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "zel_pro":
+        query.message.edit_text(
+            text=PRO,
+            reply_markup=BBMANAGE,
+            parse_mode=ParseMode.MARKDOWN
         )
 
 
