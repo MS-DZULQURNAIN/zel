@@ -21,7 +21,7 @@ class BUTTON:
                 ])
     BBMANAGE = InlineKeyboardMarkup(
                  [
-                    InlineKeyboardButton(text="🔙 Kembali", callback_data="zel_back"),
+                    InlineKeyboardButton(text="🔙 Kembali", callback_data="zel_manage"),
                  ]
                 ])
     BMUSIC = InlineKeyboardMarkup(
@@ -44,3 +44,12 @@ class BUTTON:
                     InlineKeyboardButton(text="🔙 Kembali", callback_data="zel_music"),
                  ]
                 ])
+    BJASA = InlineKeyboardMarkup(
+              [
+                 [
+                     InlineKeyboardButton("Admin", url="https://t.me/msdqqq")
+                 ],
+                 [
+                    InlineKeyboardButton(text="«", callback_data="zel_back"),
+                 ]
+              ])
