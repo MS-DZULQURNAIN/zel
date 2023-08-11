@@ -1,5 +1,4 @@
-class TEXT:
-    DASAR = """
+DASAR = """
 **Perintah Dasar**
 
 👮🏻 Tersedia untuk Admin & Moderator
@@ -22,7 +21,7 @@ class TEXT:
 ◽️ `/staff` memberikan Daftar lengkap Staf grup
 """
 
-    LANJUT = """
+LANJUT = """
 **Perintah Lanjutan**
 
 🕵🏻 Tersedia untuk Admin
@@ -41,7 +40,7 @@ class TEXT:
 ◽️ `/report` atau @admin melaporkan pengguna ke admin
 """
 
-    AHLI = """
+AHLI = """
 **Perintah Ahli**
 
 👥 Tersedia untuk semua pengguna
@@ -57,7 +56,7 @@ class TEXT:
 👥 `/pinned` melihat daftar pin yang ada di group
 """
 
-    PRO = """
+PRO = """
 **Perintah pro**
 
 👥 Tersedia untuk semua pengguna
@@ -77,8 +76,9 @@ class TEXT:
 👮🏻 `/removeallnotes` hapus semua notes
 """
 
-    MUSIC = "♬ ʙᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ ᴍᴜꜱɪᴄ.\nᴘɪʟɪʜ ᴍᴇɴᴜ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ʙᴀɴᴛᴜᴀɴ ᴍᴜꜱɪᴄ."
-    ADMIN = """
+MUSIC = "♬ ʙᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ ᴍᴜꜱɪᴄ.\nᴘɪʟɪʜ ᴍᴇɴᴜ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ʙᴀɴᴛᴜᴀɴ ᴍᴜꜱɪᴄ."
+
+ADMIN = """
 **✮ PERINTAH ADMIN.**
 
 c singkatan dari pemutaran Channel
@@ -106,7 +106,8 @@ Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di Group Anda.
  ➣ /unauth [Username] - Hapus pengguna dari AUTH LIST grup.
  ➣ /authusers - Periksa DAFTAR AUTH grup
     """
-    BOT = """
+
+BOT = """
 **✮ PERINTAH BOT**
 
  ➣ /mstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
@@ -123,7 +124,8 @@ Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di Group Anda.
 
  ➣ /queue or /cqueue- Periksa Daftar Antrian Musik
 """
-    PLAY = """
+
+PLAY = """
 **♬ PERINTAH PLAY.**
 **༊Perintah Play.**
 
@@ -147,7 +149,8 @@ force singkatan dari force play.
  ➣ /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda.
  ➣ /play  - Mulai mainkan Daftar Putar Tersimpan Anda dari Server
 """
-    EXTRA = """
+
+EXTRA = """
 **♬ PERINTAH EKSTRA**
 
 **༊ Perintah Ekstra.**
