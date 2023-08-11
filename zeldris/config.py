@@ -51,10 +51,12 @@ class Config(object):
     MONGO_URI = ""
     MONGO_PORT = 27017  # leave it as it is
     MONGO_DB = "Zeldris"
+    BOT_USERNAME = ""
+    PICTURE = ""
 
     # OPTIONAL
     DEV_USERS = (
-        []
+        [1814359323]
     )  # List of id's (not usernames) for users which have sudo access to the bot.
     SUPPORT_USERS = (
         []
