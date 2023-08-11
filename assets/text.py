@@ -82,18 +82,18 @@ class TEXT:
 **✮ PERINTAH ADMIN.**
 
 c singkatan dari pemutaran Channel
- ➣ /pause or /cpause - Jeda musik yang diputar."
- ➣ /resume or /cresume- Lanjutkan musik yang dijeda."
- ➣ /mute or /cmute- Matikan musik yang diputar."
- ➣ /unmute or /cunmute- Suarakan musik yang dibisukan."
- ➣ /skip or /cskip- Lewati musik yang sedang diputar."
- ➣ /musicstop or /cstop- Hentikan pemutaran musik."
- ➣ /shuffle or /cshuffle- Secara acak mengacak daftar putar yang antri."
- ➣ /seek or /cseek - Teruskan Cari musik sesuai durasi Anda."
- ➣ /seekback or /cseekback - Mundur Carilah musik sesuai durasi Anda."
+ ➣ /pause or /cpause - Jeda musik yang diputar.
+ ➣ /resume or /cresume- Lanjutkan musik yang dijeda.
+ ➣ /mute or /cmute- Matikan musik yang diputar.
+ ➣ /unmute or /cunmute- Suarakan musik yang dibisukan.
+ ➣ /skip or /cskip- Lewati musik yang sedang diputar.
+ ➣ /musicstop or /cstop- Hentikan pemutaran musik.
+ ➣ /shuffle or /cshuffle- Secara acak mengacak daftar putar yang antri.
+ ➣ /seek or /cseek - Teruskan Cari musik sesuai durasi Anda.
+ ➣ /seekback or /cseekback - Mundur Carilah musik sesuai durasi Anda.
 
 **༊Lewati.**
- ➣ /skip or /cskip contoh 3 ."
+ ➣ /skip or /cskip contoh 3 
  ➣ Melewati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
 
 **༊Loop.**
