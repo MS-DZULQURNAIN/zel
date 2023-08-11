@@ -147,3 +147,41 @@ force singkatan dari force play.
  ➣ /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda.
  ➣ /play  - Mulai mainkan Daftar Putar Tersimpan Anda dari Server
 """
+    EXTRA = """
+**♬ PERINTAH EKSTRA**
+
+**༊ Perintah Ekstra.**
+
+ ➣ /mstart - Mulai Bot Musik.
+
+ ➣ /mhelp - Dapatkan Menu Pembantu Perintah dengan penjelasan rinci tentang perintah.
+
+ ➣ /mping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+
+**༊ Pengaturan Music.**
+ ➣ /msettings - Dapatkan pengaturan grup lengkap dengan tombol sebaris.
+
+**༊ Opsi di Pengaturan.**
+
+➣ Kamu Bisa set ingin Kualitas Audio Anda streaming di obrolan suara.
+
+➣ You can set Kualitas Video Anda ingin streaming di obrolan suara.
+
+➣ Auth Users:- Anda dapat mengubah mode perintah admin dari sini ke semua orang atau hanya admin. Jika semua orang, siapa pun yang ada di grup Anda dapat menggunakan perintah admin (seperti /skip, /stop dll).
+
+➣ Clean Mode: Saat diaktifkan, hapus pesan bot setelah 5 menit dari grup Anda untuk memastikan obrolan Anda tetap bersih dan baik.
+
+➣ Command Clean : Saat diaktifkan, Bot akan menghapus perintah yang dieksekusi (/play, /pause, /shuffle, /stop etc) langsung.
+
+➣ Play Settings.
+
+ • /playmode - Dapatkan panel pengaturan pemutaran lengkap dengan tombol tempat Anda dapat mengatur pengaturan pemutaran grup Anda.
+
+**༊ Opsi dalam mode putar.**
+
+➣ Mode Pencarian [Langsung atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play.
+
+➣ Perintah Admin [Semua orang atau Admin] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin (seperti /skip, /stop dll).
+
+➣ Jenis Bermain [Everyone or Admins] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara
+"""
