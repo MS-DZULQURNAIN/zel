@@ -376,8 +376,10 @@ def zel_cb(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "zel_back":
+        nama = update.effective_user.first_name
         query.message.edit_text(
             PM_START_TEXT.format(
+                escape_markdown(nama), 
                 escape_markdown(context.bot.first_name),
                 escape_markdown(get_readable_time((time.time() - StartTime))),
                 db.num_users(),
