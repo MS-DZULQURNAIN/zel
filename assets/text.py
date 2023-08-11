@@ -78,3 +78,31 @@ class TEXT:
 """
 
     MUSIC = "♬ ʙᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ ᴍᴜꜱɪᴄ.\nᴘɪʟɪʜ ᴍᴇɴᴜ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ʙᴀɴᴛᴜᴀɴ ᴍᴜꜱɪᴄ."
+    ADMIN = """
+**✮ PERINTAH ADMIN.**
+
+c singkatan dari pemutaran Channel
+ ➣ /pause or /cpause - Jeda musik yang diputar."
+ ➣ /resume or /cresume- Lanjutkan musik yang dijeda."
+ ➣ /mute or /cmute- Matikan musik yang diputar."
+ ➣ /unmute or /cunmute- Suarakan musik yang dibisukan."
+ ➣ /skip or /cskip- Lewati musik yang sedang diputar."
+ ➣ /musicstop or /cstop- Hentikan pemutaran musik."
+ ➣ /shuffle or /cshuffle- Secara acak mengacak daftar putar yang antri."
+ ➣ /seek or /cseek - Teruskan Cari musik sesuai durasi Anda."
+ ➣ /seekback or /cseekback - Mundur Carilah musik sesuai durasi Anda."
+
+**༊Lewati.**
+ ➣ /skip or /cskip contoh 3 ."
+ ➣ Melewati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
+
+**༊Loop.**
+ ➣ /loop or /cloop [enable/disable] atau [Angka antara 1-10]
+ ➣ Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default ke 10 kali.
+
+**༊Pengguna Auth.**
+Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di Group Anda.
+ ➣ /auth [Username] - Tambahkan pengguna ke AUTH LIST dari grup.
+ ➣ /unauth [Username] - Hapus pengguna dari AUTH LIST grup.
+ ➣ /authusers - Periksa DAFTAR AUTH grup
+    """
