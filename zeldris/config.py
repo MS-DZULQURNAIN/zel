@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-
+"""
 if not __name__.endswith("sample_config"):
     import sys
 
@@ -24,7 +24,7 @@ if not __name__.endswith("sample_config"):
         "values here. Doing that WILL backfire on you.\nBot quitting.",
         file=sys.stderr,
     )
-    sys.exit(1)
+    sys.exit(1)"""
 
 
 # Create a new config.py file in same dir and import, then extend this class.
@@ -32,18 +32,18 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    TOKEN = "6049689032:AAH_Nmx-icacIb5FEAolpLdyiUnZjH11SU4"  # Take from @BotFather
+    TOKEN = ""
     OWNER_ID = (
-        "1337085565"  # If you dont know, run the bot and do /id in your private chat with it
+        "1814359323"
     )
-    OWNER_USERNAME = "MSDZULQRNN"
-    API_HASH = None  # for purge stuffs
-    API_ID = None
+    OWNER_USERNAME = "msdqqq"
+    API_HASH = ""
+    API_ID = 
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://bqlkbhhl:YG-iSQ5u5g-6l2MJ-NRgEi-yPJnq3S-H@rajje.db.elephantsql.com/bqlkbhhl"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = ""
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
-    REDIS_URL = "redis://something@nothing/anything:10002"  # needed for afk module, get from redislab
+    REDIS_URL = ""
     LOAD = []
     NO_LOAD = []
     WEBHOOK = False
