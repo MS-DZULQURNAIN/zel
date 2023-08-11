@@ -130,24 +130,6 @@ buttons = [
     ],
   ]
 
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="❔ Help",
-            callback_data="help_back",
-        ),
-        InlineKeyboardButton(
-            text="Updates 📢",
-            url="https://t.me/IDNCoder",
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="Add Zeldris to Your Group 👥",
-            url="t.me/ZeldrisRobot?startgroup=true",
-        ),
-    ],
-]
 
 HELP_STRINGS = f"""
 Hello there! My name is *{dispatcher.bot.first_name}*.
@@ -291,12 +273,12 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="☎️ Support",
-                            url="https://t.me/IDNCoderX",
+                            text="Updates 📡",
+                            url="https://t.me/DezetStore",
                         ),
                         InlineKeyboardButton(
-                            text="Updates 📡",
-                            url="https://t.me/IDNCoder",
+                            text="☎️ Support",
+                            url="https://t.me/DezetSupport",
                         ),
                     ]
                 ]
@@ -446,26 +428,32 @@ def zel_cb(update: Update, context: CallbackContext):
         )
     elif query.data == "zel_admin":
         query.message.edit_text(
-            text=
-            reply_markup=
+            text=ADMIN, 
+            reply_markup=BBMUSIC,
             parse_mode=ParseMode.MARKDOWN
         )
-    elif query.data == "":
+    elif query.data == "zel_bot":
         query.message.edit_text(
-            text=
-            reply_markup=
+            text=BOT, 
+            reply_markup=BBMUSIC, 
             parse_mode=ParseMode.MARKDOWN
         )
-    elif query.data == "":
+    elif query.data == "zel_play":
         query.message.edit_text(
-            text=
-            reply_markup=
+            text=PLAY, 
+            reply_markup=BBMUSIC, 
             parse_mode=ParseMode.MARKDOWN
         )
-    elif query.data == "":
+    elif query.data == "zel_extra":
         query.message.edit_text(
-            text=
-            reply_markup=
+            text=EXTRA, 
+            reply_markup=BBMUSIC, 
+            parse_mode=ParseMode.MARKDOWN
+        )
+    elif query.data == "zel_jasa":
+        query.message.edit_text(
+            text=JASA, 
+            reply_markup=BJASA,
             parse_mode=ParseMode.MARKDOWN
         )
 
