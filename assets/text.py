@@ -109,18 +109,41 @@ Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di Group Anda.
     BOT = """
 **✮ PERINTAH BOT**
 
- ➣ /mstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll."
+ ➣ /mstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
- ➣ /msudolist - Periksa Sudo Pengguna Music,"
+ ➣ /msudolist - Periksa Sudo Pengguna Music,
 
- ➣ /lyrics [Nama Musik] mencari Lirik untuk Musik tertentu di web."
+ ➣ /lyrics [Nama Musik] mencari Lirik untuk Musik tertentu di web.
 
- ➣ /song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4."
+ ➣ /song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
 
- ➣ /player -  Dapatkan Panel Bermain interaktif."
+ ➣ /player -  Dapatkan Panel Bermain interaktif.
 
- ➣ c singkatan dari pemutaran saluran."
+ ➣ c singkatan dari pemutaran saluran.
 
  ➣ /queue or /cqueue- Periksa Daftar Antrian Musik
 """
-    
+    PLAY = """
+**♬ PERINTAH PLAY.**
+**༊Perintah Play.**
+
+Perintah yang tersedia = play , vplay , cplay.
+
+Perintah ForcePlay = playforce , vplayforce , cplayforce.
+
+c singkatan dari pemutaran Channel.
+
+v singkatan dari pemutaran video.
+force singkatan dari force play.
+
+ ➣ /play atau /vplay atau /cplay  - Bot akan mulai memainkan kueri yang Anda berikan di obrolan suara atau Streaming tautan langsung di obrolan suara.
+
+ ➣ /playforce atau /vplayforce atau /cplayforce -  Force Play menghentikan trek yang sedang diputar pada obrolan suara dan mulai memutar trek yang dicari secara instan tanpa mengganggu/mengosongkan antrean.
+
+ ➣ /channelplay [Nama pengguna atau id obrolan] atau [Disable] - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.
+
+**༊Daftar Putar Server Bot.**
+ ➣ /playlist  - Periksa Daftar Putar Tersimpan Anda Di Server.
+ ➣ /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda.
+ ➣ /play  - Mulai mainkan Daftar Putar Tersimpan Anda dari Server
+"""
